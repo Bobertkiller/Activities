@@ -3,7 +3,7 @@ import math
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy
-
+#I am brazilian so excuse the portuguese, also this is supposed to process and print some data imported from a database, and make a graph
 df = pd.read_excel('tmpD3A8.xls')
 my_list = df['PIB - preços de mercado (preços 2010) - R$ de 2010 (milhões)  - Instituto Brasileiro de Geografia e Estatística, Sistema de Contas Nacionais (IBGE/SCN Anual) - SCN10_PIBP10 - '].tolist()
 
